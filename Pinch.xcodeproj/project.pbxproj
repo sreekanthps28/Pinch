@@ -12,6 +12,9 @@
 		F7BFF70429B89D6A005ECCB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BFF70329B89D6A005ECCB4 /* Assets.xcassets */; };
 		F7BFF70729B89D6A005ECCB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BFF70629B89D6A005ECCB4 /* Preview Assets.xcassets */; };
 		F7BFF71229B8BFE7005ECCB4 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFF71129B8BFE7005ECCB4 /* InfoPanelView.swift */; };
+		F7BFF71429B91319005ECCB4 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFF71329B91319005ECCB4 /* ControlView.swift */; };
+		F7BFF71629B92B2B005ECCB4 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFF71529B92B2B005ECCB4 /* PageModel.swift */; };
+		F7BFF71829B92B74005ECCB4 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFF71729B92B74005ECCB4 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F7BFF70329B89D6A005ECCB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BFF70629B89D6A005ECCB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7BFF71129B8BFE7005ECCB4 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		F7BFF71329B91319005ECCB4 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		F7BFF71529B92B2B005ECCB4 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		F7BFF71729B92B74005ECCB4 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F7BFF71129B8BFE7005ECCB4 /* InfoPanelView.swift */,
+				F7BFF71329B91319005ECCB4 /* ControlView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 		F7BFF70F29B89E27005ECCB4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F7BFF71729B92B74005ECCB4 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 		F7BFF71029B89E63005ECCB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7BFF71529B92B2B005ECCB4 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BFF71429B91319005ECCB4 /* ControlView.swift in Sources */,
+				F7BFF71629B92B2B005ECCB4 /* PageModel.swift in Sources */,
 				F7BFF70229B89D68005ECCB4 /* ContentView.swift in Sources */,
 				F7BFF70029B89D68005ECCB4 /* PinchApp.swift in Sources */,
+				F7BFF71829B92B74005ECCB4 /* PageData.swift in Sources */,
 				F7BFF71229B8BFE7005ECCB4 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
